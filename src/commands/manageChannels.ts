@@ -14,7 +14,7 @@ export class Example {
             description: "Name of the channel to be added",
             name: "name",
             required: true,
-            maxLength: 33,
+            maxLength: 32,
             type: ApplicationCommandOptionType.String
         })
         newChannel: string,
