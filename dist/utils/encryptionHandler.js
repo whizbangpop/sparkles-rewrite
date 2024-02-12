@@ -1,4 +1,4 @@
-import { Logger } from "./logger";
+import { Logger } from "./logger.js";
 import { loadPrivateKey, loadPublicKey } from "./keyHandler.js";
 import * as crypto from 'crypto';
 export class ClearableMap {
@@ -71,7 +71,7 @@ export function EncryptMessage(GuildId, Message) {
  * @param {string} guildId - The guild ID associated with the private key.
  * @returns {string | null} The decrypted string, or null if decryption fails.
  */
-function DecryptMessage(encryptedString, passkey, guildId) {
+export function DecryptMessage(encryptedString, passkey, guildId) {
     if (!loadPrivateKey(guildId))
         return null;
     const privateKey = loadPrivateKey(guildId);

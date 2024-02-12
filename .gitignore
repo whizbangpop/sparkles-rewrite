@@ -1,3 +1,5 @@
 node_modules/
 .env
 key_storage/
+dist/utils/EncryptionKeys/
+dist/

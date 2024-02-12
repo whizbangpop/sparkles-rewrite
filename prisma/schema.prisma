@@ -1,0 +1,57 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("MONGO_URL")
+}
+
+type UserMetadataRoleplays {
+  hasAdmin Boolean
+  id       String
+}
+
+model CharacterMetadata {
+  id          String           @id @default(auto()) @map("_id") @db.ObjectId
+  age         String
+  backstory   String
+  name        String
+  ownerId     String
+  owner       UserMetadata     @relation(fields: [ownerId], references: [userId])
+  personality String
+  prefix      String
+  pronouns    String
+  roleplayId  String
+  roleplay    RoleplayMetadata @relation(fields: [roleplayId], references: [roleplayId])
+  sexuality   String
+}
+
+model RoleplayChannel {
+  id                String           @id @default(auto()) @map("_id") @db.ObjectId
+  channelId         String           @unique
+  channelName       String
+  channelType       String
+  hasBillingEnabled Boolean
+  roleplayId        String
+  roleplay          RoleplayMetadata @relation(fields: [roleplayId], references: [roleplayId])
+}
+
+model RoleplayMetadata {
+  id                String              @id @default(auto()) @map("_id") @db.ObjectId
+  guildId           String
+  roleplayAdmin     String
+  roleplayId        String              @unique
+  roleplayName      String
+  CharacterMetadata CharacterMetadata[]
+  RoleplayChannel   RoleplayChannel[]
+}
+
+model UserMetadata {
+  id                String                  @id @default(auto()) @map("_id") @db.ObjectId
+  billingEnabled    Boolean
+  roleplays         UserMetadataRoleplays[]
+  stripeBillingId   String
+  userId            String                  @unique
+  CharacterMetadata CharacterMetadata[]
+}

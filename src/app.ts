@@ -1,5 +1,5 @@
 import { dirname, importx } from "@discordx/importer";
-import { IntentsBitField } from "discord.js";
+import { ActivityType, IntentsBitField } from "discord.js";
 import { Client } from "discordx";
 import { Logger } from "./utils/logger.js";
 import { RedisClient } from "./database/redis.js";
@@ -23,7 +23,15 @@ export class Main {
                 IntentsBitField.Flags.DirectMessages
             ],
             silent: false,
-            simpleCommand: { prefix: "**" }
+            simpleCommand: { prefix: "**" },
+            presence: {
+                activities: [{
+                    name: 'messages',
+                    url: "https://sparkles.whxpop.net",
+                    type: ActivityType.Watching
+                }],
+                status: 'online'
+            }
         });
 
         this._client.once("ready", async () => {

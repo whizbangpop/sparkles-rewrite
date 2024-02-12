@@ -12,3 +12,170 @@
 {"level":"info","message":">> sparkles started","timestamp":"2024-02-10T15:24:30.418Z"}
 {"level":"info","message":">> sparkles started","timestamp":"2024-02-10T15:24:41.137Z"}
 {"level":"info","message":">> sparkles started","timestamp":"2024-02-10T15:42:30.662Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T15:48:24.949Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T15:48:56.918Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T15:49:00.815Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T15:49:21.163Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T15:49:24.337Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T15:54:32.252Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T15:54:51.759Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T16:11:03.873Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T16:11:40.518Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T16:12:56.460Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T16:13:03.489Z"}
+{"guildId":"1183866582938697788","level":"debug","message":"Generating new keys","timestamp":"2024-02-10T16:13:09.179Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T16:13:33.450Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T16:13:44.044Z"}
+{"guildId":"1183866582938697788","level":"debug","message":"Generating new keys","timestamp":"2024-02-10T16:13:47.988Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T20:19:50.222Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T20:20:01.651Z"}
+{"guildId":"1183866582938697788","level":"debug","message":"Generating new keys","timestamp":"2024-02-10T20:20:05.364Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T20:21:01.628Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T20:21:09.700Z"}
+{"guildId":"1183866582938697788","level":"debug","message":"Generating new keys","timestamp":"2024-02-10T20:21:12.801Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T20:27:50.265Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T20:27:56.649Z"}
+{"guildId":"1183866582938697788","level":"debug","message":"Generating new keys","timestamp":"2024-02-10T20:27:59.194Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T20:29:03.476Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T20:29:06.650Z"}
+{"guildId":"1183866582938697788","level":"debug","message":"Generating new keys","timestamp":"2024-02-10T20:29:08.648Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T20:30:51.376Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T20:31:00.031Z"}
+{"guildId":"1183866582938697788","level":"debug","message":"Generating new keys","timestamp":"2024-02-10T20:31:04.366Z"}
+{"level":"debug","message":"Generating new keys for 1183866582938697788","timestamp":"2024-02-10T20:31:04.368Z"}
+{"level":"debug","message":"Saved public key for 1183866582938697788","timestamp":"2024-02-10T20:31:04.590Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T20:37:21.858Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T20:37:35.906Z"}
+{"guildId":"1183866582938697788","level":"debug","message":"Generating new keys","timestamp":"2024-02-10T20:37:38.626Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T20:37:53.309Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T20:38:24.310Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T20:38:25.649Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T20:39:21.385Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T20:39:22.447Z"}
+{"level":"debug","message":"Loaded public key for 1183866582938697788","timestamp":"2024-02-10T20:39:22.448Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T20:45:07.853Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T20:46:24.556Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T20:46:29.225Z"}
+{"level":"debug","message":"Loaded public key for 1183866582938697788","timestamp":"2024-02-10T20:46:29.225Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T20:46:47.234Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T20:47:55.948Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T20:49:09.633Z"}
+{"guildId":"1183866582938697788","level":"debug","message":"Generating new keys","timestamp":"2024-02-10T20:49:12.053Z"}
+{"level":"debug","message":"Generating new keys for 1183866582938697788","timestamp":"2024-02-10T20:49:12.054Z"}
+{"level":"debug","message":"Saved public key for 1183866582938697788","timestamp":"2024-02-10T20:49:12.183Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-10T20:55:32.809Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T20:55:33.959Z"}
+{"level":"debug","message":"Loading public key for 1183866582938697788","timestamp":"2024-02-10T20:55:48.077Z"}
+{"level":"debug","message":"Loading public key for 999999999999999999","timestamp":"2024-02-10T20:55:48.502Z"}
+{"level":"debug","message":"Loaded public key for 999999999999999999","timestamp":"2024-02-10T20:55:48.502Z"}
+{"guildId":"1183866582938697788","level":"debug","message":"Generating new keys","timestamp":"2024-02-10T20:56:04.237Z"}
+{"level":"debug","message":"Loading private key for 999999999999999999","timestamp":"2024-02-10T20:56:04.238Z"}
+{"level":"debug","message":"Generating new keys for 1183866582938697788","timestamp":"2024-02-10T20:56:04.239Z"}
+{"level":"debug","message":"Saved public key for 1183866582938697788","timestamp":"2024-02-10T20:56:04.519Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-10T21:01:24.640Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T21:01:26.343Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-10T21:04:04.630Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T21:04:06.276Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-10T21:09:29.096Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T21:09:30.795Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-10T21:15:23.975Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T21:15:26.440Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-10T21:15:44.568Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-10T21:15:46.351Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T08:56:56.054Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T08:56:58.558Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T10:55:11.611Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T10:55:43.301Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T10:55:45.499Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T10:57:15.374Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T10:57:26.251Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T10:58:15.612Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T10:58:20.070Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T10:58:25.525Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:01:51.916Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T11:01:53.518Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:05:56.359Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T11:05:57.936Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:06:17.027Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:06:32.757Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T11:06:38.207Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:07:16.057Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:07:32.886Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T11:07:34.379Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:08:04.022Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T11:08:13.752Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:11:31.352Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T11:11:33.194Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:28:35.556Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T11:28:36.973Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:32:07.391Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T11:32:10.486Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:32:52.064Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T11:32:53.308Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:34:19.461Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T11:34:21.367Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:36:09.256Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T11:36:10.731Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:38:23.335Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T11:38:25.228Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:47:20.883Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T11:47:22.423Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:49:20.502Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T11:49:21.981Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:50:33.619Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T11:50:34.966Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T11:51:46.741Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T11:51:50.164Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T22:03:34.605Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T22:03:36.880Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T22:05:27.495Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T22:05:28.624Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T23:01:47.003Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T23:01:47.858Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T23:42:04.683Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T23:42:05.802Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T23:42:50.489Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T23:42:51.511Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T23:43:04.289Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T23:43:05.088Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T23:43:08.920Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T23:43:09.808Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T23:43:45.563Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T23:43:46.689Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-11T23:56:45.544Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-11T23:56:46.498Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-12T00:08:14.873Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-12T00:08:16.029Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-12T10:39:59.623Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-12T10:40:00.814Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-12T10:49:28.596Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-12T10:49:29.587Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-12T10:49:48.283Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-12T10:49:49.178Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-12T13:00:36.185Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-12T13:00:55.419Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-12T13:00:57.891Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-12T13:02:53.900Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-12T13:02:55.295Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-12T13:06:20.792Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-12T13:06:22.942Z"}
+{"clientVersion":"5.9.1","code":"P2025","level":"error","meta":{"cause":"Record to delete does not exist.","modelName":"RoleplayChannel"},"name":"PrismaClientKnownRequestError","timestamp":"2024-02-12T13:06:29.919Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-12T13:08:08.088Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-12T13:08:09.376Z"}
+{"clientVersion":"5.9.1","code":"P2025","level":"error","meta":{"cause":"Record to delete does not exist.","modelName":"RoleplayChannel"},"name":"PrismaClientKnownRequestError","timestamp":"2024-02-12T13:08:09.891Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-12T13:11:02.346Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-12T13:11:03.908Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-12T13:12:02.557Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-12T13:12:03.695Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-12T13:21:15.086Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-12T13:21:18.948Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-12T13:21:32.938Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-12T13:21:34.138Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-12T13:22:43.668Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-12T13:22:53.110Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-12T13:23:33.556Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-12T13:23:34.680Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-12T13:46:35.832Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-12T13:46:37.995Z"}
+{"level":"debug","message":"Clearing key map...","timestamp":"2024-02-12T13:58:32.963Z"}
+{"level":"info","message":">> sparkles started","timestamp":"2024-02-12T13:58:34.339Z"}

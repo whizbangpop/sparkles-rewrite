@@ -17,7 +17,7 @@ interface KeyPair {
  * @returns {KeyPair} An object containing the public and private keys.
  */
 export function generateRSAKeys(guildId: string, passphrase: string): KeyPair {
-    const CurrentDir = __dirname;
+    const CurrentDir = import.meta.url.replace("file://",'');
 
     const PublicKeyFileName = `publicKey_${guildId}.pem`;
     const PublicKeyPath = path.join(CurrentDir, '..', 'EncryptionKeys', PublicKeyFileName);
@@ -27,7 +27,7 @@ export function generateRSAKeys(guildId: string, passphrase: string): KeyPair {
 
     if (fs.existsSync(PublicKeyPath)) {
         const PublicKey = fs.readFileSync(PublicKeyPath, 'utf-8');
-        const PrivateKey = '';
+        const PrivateKey = fs.readFileSync(PrivateKeyPath, 'utf-8');
         return { PublicKey: PublicKey, PrivateKey: PrivateKey };
     }
 
@@ -47,8 +47,8 @@ export function generateRSAKeys(guildId: string, passphrase: string): KeyPair {
         },
     });
 
-    fs.writeFileSync(PublicKeyPath, publicKey);
-    fs.writeFileSync(PrivateKeyPath, privateKey);
+    fs.writeFileSync(PublicKeyPath, publicKey, { flag: 'a' } );
+    fs.writeFileSync(PrivateKeyPath, privateKey, { flag: "a" });
 
     Logger.debug(`Saved public key for ${guildId}`);
 
@@ -62,7 +62,7 @@ export function generateRSAKeys(guildId: string, passphrase: string): KeyPair {
  * @returns {string | null} The public key content as a string, or null if the key file doesn't exist.
  */
 export function loadPublicKey(guildId: string): string | null {
-    const CurrentDir = import.meta.url;
+    const CurrentDir = import.meta.url.replace('file://', '');
     const PublicKeyFileName = `publicKey_${guildId}.pem`;
     const PublicKeyPath = path.join(CurrentDir, '..', 'EncryptionKeys', PublicKeyFileName);
 
@@ -77,7 +77,7 @@ export function loadPublicKey(guildId: string): string | null {
 }
 
 export function loadPrivateKey(guildId: string): string | null {
-    const CurrentDir = __dirname; 
+    const CurrentDir = import.meta.url.replace('file://', ''); 
     const PrivateKeyFileName = `privateKey_${guildId}.pem`;
     const PrivateKeyPath = path.join(CurrentDir, '..', 'EncryptionKeys', PrivateKeyFileName);
 

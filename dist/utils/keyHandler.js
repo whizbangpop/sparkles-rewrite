@@ -11,14 +11,14 @@ import 'dotenv/config';
  * @returns {KeyPair} An object containing the public and private keys.
  */
 export function generateRSAKeys(guildId, passphrase) {
-    const CurrentDir = __dirname;
+    const CurrentDir = import.meta.url.replace("file://", '');
     const PublicKeyFileName = `publicKey_${guildId}.pem`;
     const PublicKeyPath = path.join(CurrentDir, '..', 'EncryptionKeys', PublicKeyFileName);
     const PrivateKeyFileName = `privateKey_${guildId}.pem`;
     const PrivateKeyPath = path.join(CurrentDir, '..', 'EncryptionKeys', PrivateKeyFileName);
     if (fs.existsSync(PublicKeyPath)) {
         const PublicKey = fs.readFileSync(PublicKeyPath, 'utf-8');
-        const PrivateKey = '';
+        const PrivateKey = fs.readFileSync(PrivateKeyPath, 'utf-8');
         return { PublicKey: PublicKey, PrivateKey: PrivateKey };
     }
     Logger.debug(`Generating new keys for ${guildId}`);
@@ -35,8 +35,8 @@ export function generateRSAKeys(guildId, passphrase) {
             passphrase: passphrase,
         },
     });
-    fs.writeFileSync(PublicKeyPath, publicKey);
-    fs.writeFileSync(PrivateKeyPath, privateKey);
+    fs.writeFileSync(PublicKeyPath, publicKey, { flag: 'a' });
+    fs.writeFileSync(PrivateKeyPath, privateKey, { flag: "a" });
     Logger.debug(`Saved public key for ${guildId}`);
     return { PublicKey: publicKey, PrivateKey: privateKey };
 }
@@ -46,7 +46,7 @@ export function generateRSAKeys(guildId, passphrase) {
  * @returns {string | null} The public key content as a string, or null if the key file doesn't exist.
  */
 export function loadPublicKey(guildId) {
-    const CurrentDir = import.meta.url;
+    const CurrentDir = import.meta.url.replace('file://', '');
     const PublicKeyFileName = `publicKey_${guildId}.pem`;
     const PublicKeyPath = path.join(CurrentDir, '..', 'EncryptionKeys', PublicKeyFileName);
     Logger.debug(`Loading public key for ${guildId}`);
@@ -57,7 +57,7 @@ export function loadPublicKey(guildId) {
     return null; // If the file doesn't exist, return null
 }
 export function loadPrivateKey(guildId) {
-    const CurrentDir = __dirname;
+    const CurrentDir = import.meta.url.replace('file://', '');
     const PrivateKeyFileName = `privateKey_${guildId}.pem`;
     const PrivateKeyPath = path.join(CurrentDir, '..', 'EncryptionKeys', PrivateKeyFileName);
     Logger.debug(`Loading private key for ${guildId}`);

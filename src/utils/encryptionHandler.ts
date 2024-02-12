@@ -1,4 +1,4 @@
-import { Logger } from "./logger"; 
+import { Logger } from "./logger.js"; 
 import {loadPrivateKey, loadPublicKey} from "./keyHandler.js";
 import * as crypto from 'crypto';
 
@@ -83,7 +83,7 @@ export function EncryptMessage(GuildId: string, Message: string): string | null 
  * @param {string} guildId - The guild ID associated with the private key.
  * @returns {string | null} The decrypted string, or null if decryption fails.
  */
-function DecryptMessage(
+export function DecryptMessage(
     encryptedString: string,
     passkey: string,
     guildId: string
